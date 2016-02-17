@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+	<ItemGroup>
+		<None Include="..\..\MazeRunner.uproject" />
+		<Filter Include="Source">
+			<UniqueIdentifier>{A8D3B644-B6F9-4B67-AF13-2507F55D9C2C}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MazeRunner.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<None Include="..\..\Source\MazeRunnerEditor.Target.cs">
+			<Filter>Source</Filter>
+		</None >
+		<Filter Include="Config">
+			<UniqueIdentifier>{0E0A54A5-9FB0-4B94-8404-7C46BD6B556A}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Config\DefaultEditor.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultEngine.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultGame.ini">
+			<Filter>Config</Filter>
+		</None >
+		<None Include="..\..\Config\DefaultInput.ini">
+			<Filter>Config</Filter>
+		</None >
+		<Filter Include="Source\MazeRunner">
+			<UniqueIdentifier>{21C201B3-5F72-4C90-AE87-6E4842AD55C3}</UniqueIdentifier>
+		</Filter>
+		<None Include="..\..\Source\MazeRunner\MazeRunner.Build.cs">
+			<Filter>Source\MazeRunner</Filter>
+		</None >
+		<ClCompile Include="..\..\Source\MazeRunner\MazeRunner.cpp">
+			<Filter>Source\MazeRunner</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MazeRunner\MazeRunner.h">
+			<Filter>Source\MazeRunner</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MazeRunner\MazeRunnerCharacter.cpp">
+			<Filter>Source\MazeRunner</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MazeRunner\MazeRunnerCharacter.h">
+			<Filter>Source\MazeRunner</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MazeRunner\MazeRunnerGameMode.cpp">
+			<Filter>Source\MazeRunner</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MazeRunner\MazeRunnerGameMode.h">
+			<Filter>Source\MazeRunner</Filter>
+		</ClInclude >
+		<ClCompile Include="..\..\Source\MazeRunner\MazeRunnerPlayerController.cpp">
+			<Filter>Source\MazeRunner</Filter>
+		</ClCompile >
+		<ClInclude Include="..\..\Source\MazeRunner\MazeRunnerPlayerController.h">
+			<Filter>Source\MazeRunner</Filter>
+		</ClInclude >
+	</ItemGroup>
+</Project>

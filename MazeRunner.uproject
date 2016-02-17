@@ -1,0 +1,13 @@
+{
+	"FileVersion": 3,
+	"EngineAssociation": "{EA768BBB-4B82-86CE-95F2-C0824B82B867}",
+	"Category": "",
+	"Description": "",
+	"Modules": [
+		{
+			"Name": "MazeRunner",
+			"Type": "Runtime",
+			"LoadingPhase": "Default"
+		}
+	]
+}
