@@ -2,18 +2,18 @@
 
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\CrossCompilerTool\CrossCompilerTool.Target.cs" />
-		<None Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\CrossCompilerTool\CrossCompilerTool.Build.cs" />
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\CrossCompilerTool\CrossCompilerTool.Target.cs" />
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\CrossCompilerTool\CrossCompilerTool.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{52DD11A7-A9AF-43B6-B459-6D58D24B5483}</UniqueIdentifier>
+			<UniqueIdentifier>{B4E13ECE-3A4E-40EB-8D93-68E89D8EB449}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerTool.cpp">
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerTool.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerTool.h">
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerTool.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerUtils.cpp">
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\CrossCompilerTool\Private\CrossCompilerUtils.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
 	</ItemGroup>

@@ -155,10 +155,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Win32 Debug -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Win32 Debug -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Win32 Debug -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win32\UnrealVersionSelector-Win32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Win32 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Win32 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Win32 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Win32\UnrealVersionSelector-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -172,10 +172,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Win64 Debug -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Win64 Debug -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Win64 Debug -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win64\UnrealVersionSelector-Win64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Win64 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Win64 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Win64 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Win64\UnrealVersionSelector-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -189,10 +189,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector WinRT Debug -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector WinRT Debug -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector WinRT Debug -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\WinRT\UnrealVersionSelector-WinRT-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector WinRT Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector WinRT Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector WinRT Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\WinRT\UnrealVersionSelector-WinRT-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -206,10 +206,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Mac Debug -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Mac Debug -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Mac Debug -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Mac\UnrealVersionSelector-Mac-Debug</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Mac Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Mac Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Mac Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Mac\UnrealVersionSelector-Mac-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -223,10 +223,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector HTML5 Debug -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector HTML5 Debug -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector HTML5 Debug -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\HTML5\UnrealVersionSelector-HTML5-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector HTML5 Debug -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector HTML5 Debug -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector HTML5 Debug -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\HTML5\UnrealVersionSelector-HTML5-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -240,10 +240,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Win32 Development -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Win32 Development -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Win32 Development -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win32\UnrealVersionSelector.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Win32 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Win32 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Win32 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Win32\UnrealVersionSelector.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Program|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -257,10 +257,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Win64 Development -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Win64 Development -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Win64 Development -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win64\UnrealVersionSelector.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Win64 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Win64 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Win64 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Win64\UnrealVersionSelector.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -274,10 +274,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector WinRT Development -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector WinRT Development -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector WinRT Development -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\WinRT\UnrealVersionSelector.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector WinRT Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector WinRT Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector WinRT Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\WinRT\UnrealVersionSelector.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -291,10 +291,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Mac Development -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Mac Development -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Mac Development -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Mac\UnrealVersionSelector</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector Mac Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector Mac Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector Mac Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Mac\UnrealVersionSelector</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Program|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -308,30 +308,30 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector HTML5 Development -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector HTML5 Development -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector HTML5 Development -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\HTML5\UnrealVersionSelector.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat UnrealVersionSelector HTML5 Development -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat UnrealVersionSelector HTML5 Development -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat UnrealVersionSelector HTML5 Development -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\HTML5\UnrealVersionSelector.exe</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
-		<None Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Target.cs" />
-		<None Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Build.cs" />
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.cpp" />
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.h" />
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.cpp" />
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.h" />
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.cpp" />
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.h" />
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.cpp" />
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.h" />
-		<None Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Icon.ico" />
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.h" />
-		<ResourceCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.rc" />
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\VersionResource.inl" />
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Target.cs" />
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\UnrealVersionSelector.Build.cs" />
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\PlatformInstallation.h" />
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\UnrealVersionSelector.h" />
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\GenericPlatform\GenericPlatformInstallation.h" />
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.cpp" />
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\WindowsPlatformInstallation.h" />
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Icon.ico" />
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.h" />
+		<ResourceCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\Resource.rc" />
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector\Private\Windows\Resources\VersionResource.inl" />
 	</ItemGroup>
 	<PropertyGroup>
 		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);IS_PROGRAM=1;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=1;WITH_ENGINE=0;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=0;USE_STATS_WITHOUT_ENGINE=1;WITH_PLUGIN_SUPPORT=1;USE_LOGGING_IN_SHIPPING=1;UE_BUILD_MINIMAL=1;WITH_EDITOR=0;WITH_EDITORONLY_DATA=0;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;WIN32=1;_WIN32_WINNT=0x0600;WINVER=0x0600;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UnrealVersionSelector.exe";UNREALVERSIONSELECTOR_API=;UE_ENABLE_ICU=1;WITH_STEAMWORKS=0;WITH_DIRECTXMATH=0;CORE_API=;PROJECTS_API=;JSON_API=;DESKTOPPLATFORM_API=</NMakePreprocessorDefinitions>
-		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source;C:\UnrealEngine\Engine\Source\Runtime\Launch\Public;C:\UnrealEngine\Engine\Source\Runtime\Launch\Private;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Inc\UnrealVersionSelector;C:\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector;C:\UnrealEngine\Engine\Source\Runtime\Core\Public;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Internationalization;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Async;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Concurrency;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Containers;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Delegates;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\HAL;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Logging;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Math;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Misc;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Stats;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Templates;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\UObject;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Windows;C:\UnrealEngine\Engine\Source\Runtime\Core;C:\UnrealEngine\Engine\Source\Runtime\Projects\Public;C:\UnrealEngine\Engine\Source\Runtime\Projects\Public\Interfaces;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Inc\Projects;C:\UnrealEngine\Engine\Source\Runtime\Json\Public;C:\UnrealEngine\Engine\Source\Runtime\Json\Public\Dom;C:\UnrealEngine\Engine\Source\Runtime\Json\Public\Policies;C:\UnrealEngine\Engine\Source\Runtime\Json\Public\Serialization;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Inc\Json;C:\UnrealEngine\Engine\Source\Runtime\Json;C:\UnrealEngine\Engine\Source\Runtime\Projects;C:\UnrealEngine\Engine\Source\Developer\DesktopPlatform\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Inc\DesktopPlatform;C:\UnrealEngine\Engine\Source\Developer\DesktopPlatform;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.10150.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;e:\work\libcouchbase\include;;e:\work\libcouchbase\include;;</NMakeIncludeSearchPath>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Works\UnrealEngine\Engine\Source;C:\Works\UnrealEngine\Engine\Source\Runtime\Launch\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\Launch\Private;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Inc\UnrealVersionSelector;C:\Works\UnrealEngine\Engine\Source\Programs\UnrealVersionSelector;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Internationalization;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Async;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Concurrency;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Containers;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Delegates;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\HAL;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Logging;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Math;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Misc;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Stats;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Templates;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\UObject;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Windows;C:\Works\UnrealEngine\Engine\Source\Runtime\Core;C:\Works\UnrealEngine\Engine\Source\Runtime\Projects\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Inc\Projects;C:\Works\UnrealEngine\Engine\Source\Runtime\Json\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\Json\Public\Dom;C:\Works\UnrealEngine\Engine\Source\Runtime\Json\Public\Policies;C:\Works\UnrealEngine\Engine\Source\Runtime\Json\Public\Serialization;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Inc\Json;C:\Works\UnrealEngine\Engine\Source\Runtime\Json;C:\Works\UnrealEngine\Engine\Source\Runtime\Projects;C:\Works\UnrealEngine\Engine\Source\Developer\DesktopPlatform\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UnrealVersionSelector\Inc\DesktopPlatform;C:\Works\UnrealEngine\Engine\Source\Developer\DesktopPlatform;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
 		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
 		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
 		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>

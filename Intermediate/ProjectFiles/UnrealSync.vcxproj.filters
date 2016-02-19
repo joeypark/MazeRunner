@@ -2,78 +2,78 @@
 
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
 	<ItemGroup>
-		<None Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\UnrealSync.Target.cs" />
-		<None Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\UnrealSync.Build.cs" />
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\UnrealSync.Target.cs" />
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\UnrealSync.Build.cs" />
 		<Filter Include="Private">
-			<UniqueIdentifier>{1358D89B-6685-4BCE-8EA6-F275880FBC76}</UniqueIdentifier>
+			<UniqueIdentifier>{A2ECB39C-F42D-426F-AA23-D6864D35DC97}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\GUI.cpp">
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\GUI.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\GUI.h">
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\GUI.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\LabelNameProvider.h">
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\LabelNameProvider.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\P4DataCache.cpp">
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\P4DataCache.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\P4DataCache.h">
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\P4DataCache.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\P4Env.cpp">
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\P4Env.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\P4Env.h">
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\P4Env.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\ProcessHelper.cpp">
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\ProcessHelper.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\ProcessHelper.h">
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\ProcessHelper.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\SettingsCache.cpp">
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\SettingsCache.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\SettingsCache.h">
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\SettingsCache.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\SyncingThread.cpp">
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\SyncingThread.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\SyncingThread.h">
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\SyncingThread.h">
 			<Filter>Private</Filter>
 		</ClInclude >
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\UnrealSync.cpp">
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\UnrealSync.cpp">
 			<Filter>Private</Filter>
 		</ClCompile >
-		<ClInclude Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\UnrealSync.h">
+		<ClInclude Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\UnrealSync.h">
 			<Filter>Private</Filter>
 		</ClInclude >
 		<Filter Include="Private\Mac">
-			<UniqueIdentifier>{CDF21378-AE89-4337-9AA0-60D3C7FB3960}</UniqueIdentifier>
+			<UniqueIdentifier>{61DB676F-5584-4A60-BD92-D049CAC17801}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\Mac\UnrealSyncMainMac.cpp">
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\Mac\UnrealSyncMainMac.cpp">
 			<Filter>Private\Mac</Filter>
 		</ClCompile >
 		<Filter Include="Private\Windows">
-			<UniqueIdentifier>{D68B086C-DD55-42D7-B155-FFE47EB90AB4}</UniqueIdentifier>
+			<UniqueIdentifier>{D710B102-E9B2-42DD-A1AA-335A635AB864}</UniqueIdentifier>
 		</Filter>
-		<ClCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\Windows\UnrealSyncMainWindows.cpp">
+		<ClCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Private\Windows\UnrealSyncMainWindows.cpp">
 			<Filter>Private\Windows</Filter>
 		</ClCompile >
 		<Filter Include="Resources">
-			<UniqueIdentifier>{0B5ED93C-E8FF-44D3-BCFF-6F22530EE0CB}</UniqueIdentifier>
+			<UniqueIdentifier>{3FF717D2-1E0F-4046-A638-258BEED3428B}</UniqueIdentifier>
 		</Filter>
 		<Filter Include="Resources\Windows">
-			<UniqueIdentifier>{CCF08FA4-7FF5-4897-A6C9-3B8828706ED8}</UniqueIdentifier>
+			<UniqueIdentifier>{F6955239-9788-4FF5-885C-1BA479756D85}</UniqueIdentifier>
 		</Filter>
-		<None Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Resources\Windows\UnrealSync.ico">
+		<None Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Resources\Windows\UnrealSync.ico">
 			<Filter>Resources\Windows</Filter>
 		</None >
-		<ResourceCompile Include="..\..\..\..\..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Resources\Windows\UnrealSync.rc">
+		<ResourceCompile Include="..\..\..\UnrealEngine\Engine\Source\Programs\UnrealSync\Resources\Windows\UnrealSync.rc">
 			<Filter>Resources\Windows</Filter>
 		</ResourceCompile >
 	</ItemGroup>

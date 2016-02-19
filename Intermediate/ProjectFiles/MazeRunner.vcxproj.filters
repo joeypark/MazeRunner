@@ -4,7 +4,7 @@
 	<ItemGroup>
 		<None Include="..\..\MazeRunner.uproject" />
 		<Filter Include="Source">
-			<UniqueIdentifier>{A8D3B644-B6F9-4B67-AF13-2507F55D9C2C}</UniqueIdentifier>
+			<UniqueIdentifier>{220CB6C1-6AB3-427E-8274-3ACBF53D7680}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\MazeRunner.Target.cs">
 			<Filter>Source</Filter>
@@ -13,7 +13,7 @@
 			<Filter>Source</Filter>
 		</None >
 		<Filter Include="Config">
-			<UniqueIdentifier>{0E0A54A5-9FB0-4B94-8404-7C46BD6B556A}</UniqueIdentifier>
+			<UniqueIdentifier>{226DB769-8981-4929-AAAC-AACD7893FF62}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Config\DefaultEditor.ini">
 			<Filter>Config</Filter>
@@ -31,7 +31,7 @@
 			<Filter>Config</Filter>
 		</None >
 		<Filter Include="Source\MazeRunner">
-			<UniqueIdentifier>{21C201B3-5F72-4C90-AE87-6E4842AD55C3}</UniqueIdentifier>
+			<UniqueIdentifier>{F8CB989A-E01F-40E4-ABE4-A2DF4388370A}</UniqueIdentifier>
 		</Filter>
 		<None Include="..\..\Source\MazeRunner\MazeRunner.Build.cs">
 			<Filter>Source\MazeRunner</Filter>

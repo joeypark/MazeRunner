@@ -539,9 +539,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\MazeRunner-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|Win32'" Label="PropertySheets">
@@ -556,10 +556,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win32\UE4Editor-Win32-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win32 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Win32\UE4Editor-Win32-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Game|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -573,9 +573,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\MazeRunner-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug_Editor|x64'" Label="PropertySheets">
@@ -590,10 +590,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win64 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Win64\UE4Editor-Win64-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -607,9 +607,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\WinRT\MazeRunner-WinRT-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Debug_Editor|Win32'" Label="PropertySheets">
@@ -624,10 +624,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\WinRT\MazeRunnerEditor-WinRT-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor WinRT Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\WinRT\MazeRunnerEditor-WinRT-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -641,9 +641,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Mac\MazeRunner-Mac-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Debug_Editor|Win32'" Label="PropertySheets">
@@ -658,10 +658,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Mac Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Mac\UE4Editor-Mac-Debug</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -675,9 +675,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\HTML5\MazeRunner-HTML5-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Debug_Editor|Win32'" Label="PropertySheets">
@@ -692,10 +692,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\HTML5\MazeRunnerEditor-HTML5-Debug.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor HTML5 Debug "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\HTML5\MazeRunnerEditor-HTML5-Debug.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -709,9 +709,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\MazeRunner-Win32-DebugGame.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|Win32'" Label="PropertySheets">
@@ -726,10 +726,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win32 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Game|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -743,9 +743,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\MazeRunner-Win64-DebugGame.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='DebugGame_Editor|x64'" Label="PropertySheets">
@@ -760,10 +760,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win64 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -777,9 +777,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\WinRT\MazeRunner-WinRT-DebugGame.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_DebugGame_Editor|Win32'" Label="PropertySheets">
@@ -794,10 +794,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\WinRT\MazeRunnerEditor-WinRT-DebugGame.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor WinRT DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\WinRT\MazeRunnerEditor-WinRT-DebugGame.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -811,9 +811,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Mac\MazeRunner-Mac-DebugGame</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_DebugGame_Editor|Win32'" Label="PropertySheets">
@@ -828,10 +828,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Mac DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -845,9 +845,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\HTML5\MazeRunner-HTML5-DebugGame.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_DebugGame_Editor|Win32'" Label="PropertySheets">
@@ -862,10 +862,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\HTML5\MazeRunnerEditor-HTML5-DebugGame.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor HTML5 DebugGame "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\HTML5\MazeRunnerEditor-HTML5-DebugGame.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -879,9 +879,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\MazeRunner.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|Win32'" Label="PropertySheets">
@@ -896,10 +896,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win32 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Win32\UE4Editor.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Game|x64'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -913,9 +913,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\MazeRunner.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Development_Editor|x64'" Label="PropertySheets">
@@ -930,10 +930,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Win64 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Win64\UE4Editor.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -947,9 +947,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\WinRT\MazeRunner.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Development_Editor|Win32'" Label="PropertySheets">
@@ -964,10 +964,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\WinRT\MazeRunnerEditor.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor WinRT Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\WinRT\MazeRunnerEditor.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -981,9 +981,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Mac\MazeRunner</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Development_Editor|Win32'" Label="PropertySheets">
@@ -998,10 +998,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor Mac Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\Mac\UE4Editor</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -1015,9 +1015,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\HTML5\MazeRunner.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Development_Editor|Win32'" Label="PropertySheets">
@@ -1032,10 +1032,10 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
-		<NMakeOutput>C:\UnrealEngine\Engine\Binaries\HTML5\MazeRunnerEditor.exe</NMakeOutput>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunnerEditor HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunnerEditor HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunnerEditor HTML5 Development "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
+		<NMakeOutput>C:\Works\UnrealEngine\Engine\Binaries\HTML5\MazeRunnerEditor.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|Win32'" Label="PropertySheets">
 		<Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
@@ -1049,9 +1049,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win32 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\MazeRunner-Win32-Shipping.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Shipping_Game|x64'" Label="PropertySheets">
@@ -1066,9 +1066,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win64 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\MazeRunner-Win64-Shipping.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Shipping_Game|Win32'" Label="PropertySheets">
@@ -1083,9 +1083,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner WinRT Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner WinRT Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner WinRT Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner WinRT Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner WinRT Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner WinRT Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\WinRT\MazeRunner-WinRT-Shipping.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Shipping_Game|Win32'" Label="PropertySheets">
@@ -1100,9 +1100,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Mac Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Mac Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Mac Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Mac Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Mac Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Mac Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Mac\MazeRunner-Mac-Shipping</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Shipping_Game|Win32'" Label="PropertySheets">
@@ -1117,9 +1117,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner HTML5 Shipping "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\HTML5\MazeRunner-HTML5-Shipping.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|Win32'" Label="PropertySheets">
@@ -1134,9 +1134,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win32 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win32 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win32 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win32 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win32 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win32 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win32\MazeRunner-Win32-Test.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Test_Game|x64'" Label="PropertySheets">
@@ -1151,9 +1151,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win64 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win64 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win64 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Win64 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Win64 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Win64 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Win64\MazeRunner-Win64-Test.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='WinRT_Test_Game|Win32'" Label="PropertySheets">
@@ -1168,9 +1168,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner WinRT Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner WinRT Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner WinRT Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner WinRT Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner WinRT Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner WinRT Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\WinRT\MazeRunner-WinRT-Test.exe</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='Mac_Test_Game|Win32'" Label="PropertySheets">
@@ -1185,9 +1185,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Mac Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Mac Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Mac Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner Mac Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner Mac Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner Mac Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\Mac\MazeRunner-Mac-Test</NMakeOutput>
 	</PropertyGroup>
 	<ImportGroup Condition="'$(Configuration)|$(Platform)'=='HTML5_Test_Game|Win32'" Label="PropertySheets">
@@ -1202,9 +1202,9 @@
 		<ExcludePath />
 		<OutDir>$(ProjectDir)..\Build\Unused\</OutDir>
 		<IntDir>$(ProjectDir)..\Build\Unused\</IntDir>
-		<NMakeBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner HTML5 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeBuildCommandLine>
-		<NMakeReBuildCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner HTML5 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeReBuildCommandLine>
-		<NMakeCleanCommandLine>C:\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner HTML5 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex -2015</NMakeCleanCommandLine>
+		<NMakeBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Build.bat MazeRunner HTML5 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeBuildCommandLine>
+		<NMakeReBuildCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Rebuild.bat MazeRunner HTML5 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeReBuildCommandLine>
+		<NMakeCleanCommandLine>C:\Works\UnrealEngine\Engine\Build\BatchFiles\Clean.bat MazeRunner HTML5 Test "$(SolutionDir)$(ProjectName).uproject" -waitmutex</NMakeCleanCommandLine>
 		<NMakeOutput>..\..\Binaries\HTML5\MazeRunner-HTML5-Test.exe</NMakeOutput>
 	</PropertyGroup>
 	<ItemGroup>
@@ -1228,7 +1228,7 @@
 	</ItemGroup>
 	<PropertyGroup>
 		<NMakePreprocessorDefinitions>$(NMakePreprocessorDefinitions);UE_EDITOR=1;IS_PROGRAM=0;UNICODE;_UNICODE;__UNREAL__;IS_MONOLITHIC=0;WITH_ENGINE=1;WITH_UNREAL_DEVELOPER_TOOLS=0;WITH_COREUOBJECT=1;USE_STATS_WITHOUT_ENGINE=1;WITH_PLUGIN_SUPPORT=1;USE_LOGGING_IN_SHIPPING=1;UE_BUILD_MINIMAL=0;WITH_EDITOR=1;WITH_SERVER_CODE=1;UBT_COMPILED_PLATFORM=Win64;WIN32=1;_WIN32_WINNT=0x0600;WINVER=0x0600;PLATFORM_WINDOWS=1;NDEBUG=1;UE_BUILD_DEVELOPMENT=1;ORIGINAL_FILE_NAME="UE4Editor-MazeRunner.dll";DEPRECATED_FORGAME=DEPRECATED;MAZERUNNER_API=;UE_ENABLE_ICU=1;WITH_STEAMWORKS=0;WITH_DIRECTXMATH=0;CORE_API=;COREUOBJECT_API=;WITH_PHYSX=1;WITH_APEX=1;WITH_RUNTIME_PHYSICS_COOKING;WITH_BOX2D=1;WITH_RECAST=1;ENGINE_API=;JSON_API=;WITH_FREETYPE=1;SLATECORE_API=;INPUTCORE_API=;SLATE_API=;MESSAGING_API=;RENDERCORE_API=;RHI_API=;SHADERCORE_API=;ASSETREGISTRY_API=;ENGINEMESSAGES_API=;ENGINESETTINGS_API=;SYNTHBENCHMARK_API=;RENDERER_API=;AIMODULE_API=;GAMEPLAYTAGS_API=;GAMEPLAYTASKS_API=;DATABASESUPPORT_API=;COOKINGSTATS_API=;UNREALED_API=;BSPMODE_API=;DIRECTORYWATCHER_API=;DOCUMENTATION_API=;PROJECTS_API=;SANDBOXFILE_API=;EDITORSTYLE_API=;SOURCECONTROL_API=;UNREALEDMESSAGES_API=;GAMEPLAYDEBUGGER_API=;BLUEPRINTGRAPH_API=;HTTP_PACKAGE=1;HTTP_API=;UNREALAUDIO_API=;NIAGARA_API=;MOVIESCENE_API=;VECTORVM_API=;FUNCTIONALTESTING_API=;XAUDIO2_API=;UNREALAUDIOXAUDIO2_API=;USERFEEDBACK_API=;COLLECTIONMANAGER_API=;NIAGARAEDITOR_API=;GRAPHEDITOR_API=;INTROTUTORIALS_API=;LEVELEDITOR_API=;SETTINGS_API=;ADDCONTENTDIALOG_API=;MESHUTILITIES_API=;KISMET_API=;PACKETHANDLER_API=</NMakePreprocessorDefinitions>
-		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\UnrealEngine\Engine\Source;..\..\Source;..\Build\Win64\UE4Editor\Inc\MazeRunner;C:\UnrealEngine\Engine\Source\Runtime\Core\Public;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Internationalization;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Async;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Concurrency;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Containers;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Delegates;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\HAL;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Logging;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Math;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Misc;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Stats;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Templates;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\UObject;C:\UnrealEngine\Engine\Source\Runtime\Core\Public\Windows;C:\UnrealEngine\Engine\Source\Runtime\Core;C:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Classes;C:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;C:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;C:\UnrealEngine\Engine\Source\Runtime\CoreUObject;C:\UnrealEngine\Engine\Source\Runtime\Engine\Classes;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public\AI;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public\AI\Navigation;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public\Animation;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public\EdGraph;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public\Features;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public\Net;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public\Performance;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public\Slate;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public\Tests;C:\UnrealEngine\Engine\Source\Runtime\Engine\Public\VisualLogger;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;C:\UnrealEngine\Engine\Source\Runtime\Json\Public;C:\UnrealEngine\Engine\Source\Runtime\Json\Public\Dom;C:\UnrealEngine\Engine\Source\Runtime\Json\Public\Policies;C:\UnrealEngine\Engine\Source\Runtime\Json\Public\Serialization;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;C:\UnrealEngine\Engine\Source\Runtime\Json;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Animation;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Application;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Brushes;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Fonts;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Input;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Layout;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Logging;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Rendering;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Sound;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Stats;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Styling;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Textures;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Types;C:\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Widgets;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;C:\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;C:\UnrealEngine\Engine\Source\Runtime\InputCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;C:\UnrealEngine\Engine\Source\Runtime\InputCore;C:\UnrealEngine\Engine\Source\Runtime\SlateCore;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Application;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Commands;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Docking;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Layout;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Notifications;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Styling;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Text;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Text\Android;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Text\IOS;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Views;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Colors;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Docking;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Images;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Input;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Layout;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Text;C:\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Views;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;C:\UnrealEngine\Engine\Source\Runtime\Slate;C:\UnrealEngine\Engine\Source\Runtime\Messaging\Public;C:\UnrealEngine\Engine\Source\Runtime\Messaging\Public\Deprecated;C:\UnrealEngine\Engine\Source\Runtime\Messaging\Public\Helpers;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;C:\UnrealEngine\Engine\Source\Runtime\Messaging;C:\UnrealEngine\Engine\Source\Runtime\RenderCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;C:\UnrealEngine\Engine\Source\Runtime\RenderCore;C:\UnrealEngine\Engine\Source\Runtime\RHI\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;C:\UnrealEngine\Engine\Source\Runtime\RHI;C:\UnrealEngine\Engine\Source\Runtime\ShaderCore\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ShaderCore;C:\UnrealEngine\Engine\Source\Runtime\ShaderCore;C:\UnrealEngine\Engine\Source\Runtime\AssetRegistry\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;C:\UnrealEngine\Engine\Source\Runtime\AssetRegistry;C:\UnrealEngine\Engine\Source\Runtime\EngineMessages\Classes;C:\UnrealEngine\Engine\Source\Runtime\EngineMessages\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;C:\UnrealEngine\Engine\Source\Runtime\EngineMessages;C:\UnrealEngine\Engine\Source\Runtime\EngineSettings\Classes;C:\UnrealEngine\Engine\Source\Runtime\EngineSettings\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;C:\UnrealEngine\Engine\Source\Runtime\EngineSettings;C:\UnrealEngine\Engine\Source\Runtime\SynthBenchmark\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;C:\UnrealEngine\Engine\Source\Runtime\Renderer\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;C:\UnrealEngine\Engine\Source\Runtime\Renderer;C:\UnrealEngine\Engine\Source\Runtime\SynthBenchmark;C:\UnrealEngine\Engine\Source\Runtime\AIModule\Public;C:\UnrealEngine\Engine\Source\Runtime\AIModule\Classes;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;C:\UnrealEngine\Engine\Source\Runtime\GameplayTags\Classes;C:\UnrealEngine\Engine\Source\Runtime\GameplayTags\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;C:\UnrealEngine\Engine\Source\Runtime\GameplayTags;C:\UnrealEngine\Engine\Source\Runtime\GameplayTasks\Classes;C:\UnrealEngine\Engine\Source\Runtime\GameplayTasks\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;C:\UnrealEngine\Engine\Source\Runtime\GameplayTasks;C:\UnrealEngine\Engine\Source\Runtime\AIModule;C:\UnrealEngine\Engine\Source\Runtime\DatabaseSupport\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DatabaseSupport;C:\UnrealEngine\Engine\Source\Runtime\DatabaseSupport;C:\UnrealEngine\Engine\Source\Editor\CookingStats\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CookingStats;C:\UnrealEngine\Engine\Source\Editor\CookingStats;C:\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Classes;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Animation;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\AutoReimport;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Commandlets;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Dialogs;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Features;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Kismet2;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Layers;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Localization;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Settings;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Tests;C:\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Toolkits;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;C:\UnrealEngine\Engine\Source\Editor\BspMode\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BspMode;C:\UnrealEngine\Engine\Source\Editor\BspMode;C:\UnrealEngine\Engine\Source\Developer\DirectoryWatcher\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;C:\UnrealEngine\Engine\Source\Developer\DirectoryWatcher;C:\UnrealEngine\Engine\Source\Editor\Documentation\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;C:\UnrealEngine\Engine\Source\Editor\Documentation;C:\UnrealEngine\Engine\Source\Runtime\Projects\Public;C:\UnrealEngine\Engine\Source\Runtime\Projects\Public\Interfaces;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;C:\UnrealEngine\Engine\Source\Runtime\Projects;C:\UnrealEngine\Engine\Source\Runtime\SandboxFile\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;C:\UnrealEngine\Engine\Source\Runtime\SandboxFile;C:\UnrealEngine\Engine\Source\Editor\EditorStyle\Public;C:\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Classes;C:\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Interfaces;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;C:\UnrealEngine\Engine\Source\Editor\EditorStyle;C:\UnrealEngine\Engine\Source\Developer\SourceControl\Public;C:\UnrealEngine\Engine\Source\Developer\SourceControl\Public\Tests;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;C:\UnrealEngine\Engine\Source\Developer\SourceControl;C:\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Classes;C:\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;C:\UnrealEngine\Engine\Source\Editor\UnrealEdMessages;C:\UnrealEngine\Engine\Source\Developer\GameplayDebugger\Public;C:\UnrealEngine\Engine\Source\Developer\AIModule\Public;C:\UnrealEngine\Engine\Source\Developer\Settings\Public;C:\UnrealEngine\Engine\Source\Runtime\GameplayAbilities\Public;C:\UnrealEngine\Engine\Source\Editor\LevelEditor\Public;C:\UnrealEngine\Engine\Source\Developer\GameplayDebugger\Classes;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;C:\UnrealEngine\Engine\Source\Developer\GameplayDebugger;C:\UnrealEngine\Engine\Source\Editor\BlueprintGraph\Classes;C:\UnrealEngine\Engine\Source\Editor\BlueprintGraph\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;C:\UnrealEngine\Engine\Source\Editor\BlueprintGraph;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\Android;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\HTML5;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\IOS;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\Linux;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\Mac;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\Windows;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\WinRT;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;C:\UnrealEngine\Engine\Source\Runtime\Online\HTTP;C:\UnrealEngine\Engine\Source\Runtime\UnrealAudio\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;C:\UnrealEngine\Engine\Source\Runtime\UnrealAudio;C:\UnrealEngine\Engine\Source\Runtime\Niagara\Classes;C:\UnrealEngine\Engine\Source\Runtime\Niagara\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Niagara;C:\UnrealEngine\Engine\Source\Runtime\MovieScene\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;C:\UnrealEngine\Engine\Source\Runtime\MovieScene;C:\UnrealEngine\Engine\Source\Runtime\VectorVM\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VectorVM;C:\UnrealEngine\Engine\Source\Runtime\VectorVM;C:\UnrealEngine\Engine\Source\Runtime\Niagara;C:\UnrealEngine\Engine\Source\Developer\FunctionalTesting\Classes;C:\UnrealEngine\Engine\Source\Developer\FunctionalTesting\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;C:\UnrealEngine\Engine\Source\Developer\FunctionalTesting;C:\UnrealEngine\Engine\Source\Runtime\Windows\XAudio2\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;C:\UnrealEngine\Engine\Source\Runtime\Windows\XAudio2;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudioXAudio2;C:\UnrealEngine\Engine\Source\Runtime\Windows\UnrealAudioXAudio2;C:\UnrealEngine\Engine\Source\Editor\UserFeedback\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UserFeedback;C:\UnrealEngine\Engine\Source\Editor\UserFeedback;C:\UnrealEngine\Engine\Source\Developer\CollectionManager\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;C:\UnrealEngine\Engine\Source\Developer\CollectionManager;C:\UnrealEngine\Engine\Source\Editor\NiagaraEditor\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NiagaraEditor;C:\UnrealEngine\Engine\Source\Editor\GraphEditor\Public;C:\UnrealEngine\Engine\Source\Editor\GraphEditor\Public\KismetNodes;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;C:\UnrealEngine\Engine\Source\Editor\IntroTutorials\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;C:\UnrealEngine\Engine\Source\Editor\IntroTutorials;C:\UnrealEngine\Engine\Source\Editor\GraphEditor;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;C:\UnrealEngine\Engine\Source\Developer\Settings;C:\UnrealEngine\Engine\Source\Editor\LevelEditor;C:\UnrealEngine\Engine\Source\Editor\NiagaraEditor;C:\UnrealEngine\Engine\Source\Editor\AddContentDialog\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;C:\UnrealEngine\Engine\Source\Editor\AddContentDialog;C:\UnrealEngine\Engine\Source\Developer\MeshUtilities\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;C:\UnrealEngine\Engine\Source\Developer\MeshUtilities;C:\UnrealEngine\Engine\Source\Editor\UnrealEd;C:\UnrealEngine\Engine\Source\Editor\Kismet\Classes;C:\UnrealEngine\Engine\Source\Editor\Kismet\Public;C:\UnrealEngine\Engine\Source\Editor\Kismet\Public\Nodes;C:\UnrealEngine\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;C:\UnrealEngine\Engine\Source\Editor\Kismet;C:\UnrealEngine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;C:\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;C:\UnrealEngine\Engine\Source\Runtime\PacketHandlers\PacketHandler;C:\UnrealEngine\Engine\Source\Runtime\Engine;..\..\Source\MazeRunner;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.10150.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;e:\work\libcouchbase\include;;e:\work\libcouchbase\include;;</NMakeIncludeSearchPath>
+		<NMakeIncludeSearchPath>$(NMakeIncludeSearchPath);C:\Works\UnrealEngine\Engine\Source;..\..\Source;..\Build\Win64\UE4Editor\Inc\MazeRunner;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Internationalization;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Async;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Concurrency;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Containers;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Delegates;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\GenericPlatform;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\HAL;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Logging;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Math;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Misc;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Modules\Boilerplate;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\ProfilingDebugging;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Serialization\Csv;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Stats;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Templates;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\UObject;C:\Works\UnrealEngine\Engine\Source\Runtime\Core\Public\Windows;C:\Works\UnrealEngine\Engine\Source\Runtime\Core;C:\Works\UnrealEngine\Engine\Source\Runtime\CoreUObject\Classes;C:\Works\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Blueprint;C:\Works\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Misc;C:\Works\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Serialization;C:\Works\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\Templates;C:\Works\UnrealEngine\Engine\Source\Runtime\CoreUObject\Public\UObject;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CoreUObject;C:\Works\UnrealEngine\Engine\Source\Runtime\CoreUObject;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Classes;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Public\AI;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Public\AI\Navigation;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Public\Animation;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Public\EdGraph;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Public\Features;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Public\Net;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Public\Performance;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Public\Slate;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Public\Tests;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine\Public\VisualLogger;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Engine;C:\Works\UnrealEngine\Engine\Source\Runtime\Json\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\Json\Public\Dom;C:\Works\UnrealEngine\Engine\Source\Runtime\Json\Public\Policies;C:\Works\UnrealEngine\Engine\Source\Runtime\Json\Public\Serialization;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Json;C:\Works\UnrealEngine\Engine\Source\Runtime\Json;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Animation;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Application;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Brushes;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Fonts;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Input;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Layout;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Logging;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Rendering;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Sound;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Stats;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Styling;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Textures;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Types;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore\Public\Widgets;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SlateCore;C:\Works\UnrealEngine\Engine\Source\Runtime\InputCore\Classes;C:\Works\UnrealEngine\Engine\Source\Runtime\InputCore\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\InputCore;C:\Works\UnrealEngine\Engine\Source\Runtime\InputCore;C:\Works\UnrealEngine\Engine\Source\Runtime\SlateCore;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Application;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Commands;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Docking;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Layout;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\MultiBox;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Notifications;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Styling;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Text;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Text\Android;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Text\IOS;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Framework\Views;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Colors;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Docking;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Images;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Input;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\LayerManager;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Layout;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Navigation;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Notifications;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Text;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate\Public\Widgets\Views;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Slate;C:\Works\UnrealEngine\Engine\Source\Runtime\Slate;C:\Works\UnrealEngine\Engine\Source\Runtime\Messaging\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\Messaging\Public\Deprecated;C:\Works\UnrealEngine\Engine\Source\Runtime\Messaging\Public\Helpers;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Messaging;C:\Works\UnrealEngine\Engine\Source\Runtime\Messaging;C:\Works\UnrealEngine\Engine\Source\Runtime\RenderCore\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RenderCore;C:\Works\UnrealEngine\Engine\Source\Runtime\RenderCore;C:\Works\UnrealEngine\Engine\Source\Runtime\RHI\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\RHI;C:\Works\UnrealEngine\Engine\Source\Runtime\RHI;C:\Works\UnrealEngine\Engine\Source\Runtime\ShaderCore\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\ShaderCore;C:\Works\UnrealEngine\Engine\Source\Runtime\ShaderCore;C:\Works\UnrealEngine\Engine\Source\Runtime\AssetRegistry\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AssetRegistry;C:\Works\UnrealEngine\Engine\Source\Runtime\AssetRegistry;C:\Works\UnrealEngine\Engine\Source\Runtime\EngineMessages\Classes;C:\Works\UnrealEngine\Engine\Source\Runtime\EngineMessages\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineMessages;C:\Works\UnrealEngine\Engine\Source\Runtime\EngineMessages;C:\Works\UnrealEngine\Engine\Source\Runtime\EngineSettings\Classes;C:\Works\UnrealEngine\Engine\Source\Runtime\EngineSettings\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EngineSettings;C:\Works\UnrealEngine\Engine\Source\Runtime\EngineSettings;C:\Works\UnrealEngine\Engine\Source\Runtime\SynthBenchmark\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SynthBenchmark;C:\Works\UnrealEngine\Engine\Source\Runtime\Renderer\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Renderer;C:\Works\UnrealEngine\Engine\Source\Runtime\Renderer;C:\Works\UnrealEngine\Engine\Source\Runtime\SynthBenchmark;C:\Works\UnrealEngine\Engine\Source\Runtime\AIModule\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\AIModule\Classes;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AIModule;C:\Works\UnrealEngine\Engine\Source\Runtime\GameplayTags\Classes;C:\Works\UnrealEngine\Engine\Source\Runtime\GameplayTags\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTags;C:\Works\UnrealEngine\Engine\Source\Runtime\GameplayTags;C:\Works\UnrealEngine\Engine\Source\Runtime\GameplayTasks\Classes;C:\Works\UnrealEngine\Engine\Source\Runtime\GameplayTasks\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayTasks;C:\Works\UnrealEngine\Engine\Source\Runtime\GameplayTasks;C:\Works\UnrealEngine\Engine\Source\Runtime\AIModule;C:\Works\UnrealEngine\Engine\Source\Runtime\DatabaseSupport\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DatabaseSupport;C:\Works\UnrealEngine\Engine\Source\Runtime\DatabaseSupport;C:\Works\UnrealEngine\Engine\Source\Editor\CookingStats\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CookingStats;C:\Works\UnrealEngine\Engine\Source\Editor\CookingStats;C:\Works\UnrealEngine\Engine\Source\Programs\UnrealLightmass\Public;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Classes;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Animation;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\AutoReimport;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Commandlets;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Dialogs;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\DragAndDrop;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Features;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Kismet2;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Layers;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Localization;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Settings;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Tests;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd\Public\Toolkits;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEd;C:\Works\UnrealEngine\Engine\Source\Editor\BspMode\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BspMode;C:\Works\UnrealEngine\Engine\Source\Editor\BspMode;C:\Works\UnrealEngine\Engine\Source\Developer\DirectoryWatcher\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\DirectoryWatcher;C:\Works\UnrealEngine\Engine\Source\Developer\DirectoryWatcher;C:\Works\UnrealEngine\Engine\Source\Editor\Documentation\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Documentation;C:\Works\UnrealEngine\Engine\Source\Editor\Documentation;C:\Works\UnrealEngine\Engine\Source\Runtime\Projects\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\Projects\Public\Interfaces;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Projects;C:\Works\UnrealEngine\Engine\Source\Runtime\Projects;C:\Works\UnrealEngine\Engine\Source\Runtime\SandboxFile\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SandboxFile;C:\Works\UnrealEngine\Engine\Source\Runtime\SandboxFile;C:\Works\UnrealEngine\Engine\Source\Editor\EditorStyle\Public;C:\Works\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Classes;C:\Works\UnrealEngine\Engine\Source\Editor\EditorStyle\Public\Interfaces;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\EditorStyle;C:\Works\UnrealEngine\Engine\Source\Editor\EditorStyle;C:\Works\UnrealEngine\Engine\Source\Developer\SourceControl\Public;C:\Works\UnrealEngine\Engine\Source\Developer\SourceControl\Public\Tests;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\SourceControl;C:\Works\UnrealEngine\Engine\Source\Developer\SourceControl;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Classes;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEdMessages\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealEdMessages;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEdMessages;C:\Works\UnrealEngine\Engine\Source\Developer\GameplayDebugger\Public;C:\Works\UnrealEngine\Engine\Source\Developer\AIModule\Public;C:\Works\UnrealEngine\Engine\Source\Developer\Settings\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\GameplayAbilities\Public;C:\Works\UnrealEngine\Engine\Source\Editor\LevelEditor\Public;C:\Works\UnrealEngine\Engine\Source\Developer\GameplayDebugger\Classes;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GameplayDebugger;C:\Works\UnrealEngine\Engine\Source\Developer\GameplayDebugger;C:\Works\UnrealEngine\Engine\Source\Editor\BlueprintGraph\Classes;C:\Works\UnrealEngine\Engine\Source\Editor\BlueprintGraph\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\BlueprintGraph;C:\Works\UnrealEngine\Engine\Source\Editor\BlueprintGraph;C:\Works\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public;C:\Works\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\Android;C:\Works\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\GenericPlatform;C:\Works\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\HTML5;C:\Works\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\Interfaces;C:\Works\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\IOS;C:\Works\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\Linux;C:\Works\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\Mac;C:\Works\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\Windows;C:\Works\UnrealEngine\Engine\Source\Runtime\Online\HTTP\Public\WinRT;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\HTTP;C:\Works\UnrealEngine\Engine\Source\Runtime\Online\HTTP;C:\Works\UnrealEngine\Engine\Source\Runtime\UnrealAudio\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudio;C:\Works\UnrealEngine\Engine\Source\Runtime\UnrealAudio;C:\Works\UnrealEngine\Engine\Source\Runtime\Niagara\Classes;C:\Works\UnrealEngine\Engine\Source\Runtime\Niagara\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Niagara;C:\Works\UnrealEngine\Engine\Source\Runtime\MovieScene\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MovieScene;C:\Works\UnrealEngine\Engine\Source\Runtime\MovieScene;C:\Works\UnrealEngine\Engine\Source\Runtime\VectorVM\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\VectorVM;C:\Works\UnrealEngine\Engine\Source\Runtime\VectorVM;C:\Works\UnrealEngine\Engine\Source\Runtime\Niagara;C:\Works\UnrealEngine\Engine\Source\Developer\FunctionalTesting\Classes;C:\Works\UnrealEngine\Engine\Source\Developer\FunctionalTesting\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\FunctionalTesting;C:\Works\UnrealEngine\Engine\Source\Developer\FunctionalTesting;C:\Works\UnrealEngine\Engine\Source\Runtime\Windows\XAudio2\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\XAudio2;C:\Works\UnrealEngine\Engine\Source\Runtime\Windows\XAudio2;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UnrealAudioXAudio2;C:\Works\UnrealEngine\Engine\Source\Runtime\Windows\UnrealAudioXAudio2;C:\Works\UnrealEngine\Engine\Source\Editor\UserFeedback\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\UserFeedback;C:\Works\UnrealEngine\Engine\Source\Editor\UserFeedback;C:\Works\UnrealEngine\Engine\Source\Developer\CollectionManager\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\CollectionManager;C:\Works\UnrealEngine\Engine\Source\Developer\CollectionManager;C:\Works\UnrealEngine\Engine\Source\Editor\NiagaraEditor\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\NiagaraEditor;C:\Works\UnrealEngine\Engine\Source\Editor\GraphEditor\Public;C:\Works\UnrealEngine\Engine\Source\Editor\GraphEditor\Public\KismetNodes;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\GraphEditor;C:\Works\UnrealEngine\Engine\Source\Editor\IntroTutorials\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\IntroTutorials;C:\Works\UnrealEngine\Engine\Source\Editor\IntroTutorials;C:\Works\UnrealEngine\Engine\Source\Editor\GraphEditor;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\LevelEditor;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Settings;C:\Works\UnrealEngine\Engine\Source\Developer\Settings;C:\Works\UnrealEngine\Engine\Source\Editor\LevelEditor;C:\Works\UnrealEngine\Engine\Source\Editor\NiagaraEditor;C:\Works\UnrealEngine\Engine\Source\Editor\AddContentDialog\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\AddContentDialog;C:\Works\UnrealEngine\Engine\Source\Editor\AddContentDialog;C:\Works\UnrealEngine\Engine\Source\Developer\MeshUtilities\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\MeshUtilities;C:\Works\UnrealEngine\Engine\Source\Developer\MeshUtilities;C:\Works\UnrealEngine\Engine\Source\Editor\UnrealEd;C:\Works\UnrealEngine\Engine\Source\Editor\Kismet\Classes;C:\Works\UnrealEngine\Engine\Source\Editor\Kismet\Public;C:\Works\UnrealEngine\Engine\Source\Editor\Kismet\Public\Nodes;C:\Works\UnrealEngine\Engine\Source\Editor\Kismet\Public\WorkflowOrientedApp;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\Kismet;C:\Works\UnrealEngine\Engine\Source\Editor\Kismet;C:\Works\UnrealEngine\Engine\Source\Runtime\PacketHandlers\PacketHandler\Public;C:\Works\UnrealEngine\Engine\Intermediate\Build\Win64\UE4Editor\Inc\PacketHandler;C:\Works\UnrealEngine\Engine\Source\Runtime\PacketHandlers\PacketHandler;C:\Works\UnrealEngine\Engine\Source\Runtime\Engine;..\..\Source\MazeRunner;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\INCLUDE;C:\Program Files (x86)\Microsoft Visual Studio 14.0\VC\ATLMFC\INCLUDE;C:\Program Files (x86)\Windows Kits\10\include\10.0.10240.0\ucrt;C:\Program Files (x86)\Windows Kits\NETFXSDK\4.6\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\shared;C:\Program Files (x86)\Windows Kits\8.1\include\um;C:\Program Files (x86)\Windows Kits\8.1\include\winrt;;</NMakeIncludeSearchPath>
 		<NMakeForcedIncludes>$(NMakeForcedIncludes)</NMakeForcedIncludes>
 		<NMakeAssemblySearchPath>$(NMakeAssemblySearchPath)</NMakeAssemblySearchPath>
 		<NMakeForcedUsingAssemblies>$(NMakeForcedUsingAssemblies)</NMakeForcedUsingAssemblies>
